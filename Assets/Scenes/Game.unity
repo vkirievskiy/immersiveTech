@@ -1657,8 +1657,9 @@ MonoBehaviour:
   directionalLight: {fileID: 1245095626}
   powerOnMp: {fileID: 8300000, guid: caa4ae8f0ac42a3489f39b7b03339b84, type: 3}
   audioSource: {fileID: 1229540810}
+  objectives: {fileID: 802505322}
   powerOn: 0
-  oxygen: 35
+  oxygen: 40
   vrTextDisplay: {fileID: 1146016053}
   desk: {fileID: 1438980090}
   win: 0
@@ -3606,11 +3607,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2243020122175513880, guid: 77e7c27b2c5525e4aa8cc9f99d654486, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 0
+      value: 80
       objectReference: {fileID: 0}
     - target: {fileID: 2243020122175513880, guid: 77e7c27b2c5525e4aa8cc9f99d654486, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 0
+      value: 46
       objectReference: {fileID: 0}
     - target: {fileID: 2243020122246761220, guid: 77e7c27b2c5525e4aa8cc9f99d654486, type: 3}
       propertyPath: m_AnchorMax.y
@@ -3654,11 +3655,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2243020122829345126, guid: 77e7c27b2c5525e4aa8cc9f99d654486, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 0
+      value: 80
       objectReference: {fileID: 0}
     - target: {fileID: 2243020122829345126, guid: 77e7c27b2c5525e4aa8cc9f99d654486, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 0
+      value: 46
       objectReference: {fileID: 0}
     - target: {fileID: 2243020122894124685, guid: 77e7c27b2c5525e4aa8cc9f99d654486, type: 3}
       propertyPath: m_AnchorMax.y
@@ -3682,11 +3683,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2243020123108092049, guid: 77e7c27b2c5525e4aa8cc9f99d654486, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 0
+      value: 89.4
       objectReference: {fileID: 0}
     - target: {fileID: 2243020123108092049, guid: 77e7c27b2c5525e4aa8cc9f99d654486, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 0
+      value: 46
       objectReference: {fileID: 0}
     - target: {fileID: 2388127358730611130, guid: 77e7c27b2c5525e4aa8cc9f99d654486, type: 3}
       propertyPath: m_Enabled
@@ -3762,19 +3763,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7434851321045060958, guid: 77e7c27b2c5525e4aa8cc9f99d654486, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 0
+      value: 80
       objectReference: {fileID: 0}
     - target: {fileID: 7434851321045060958, guid: 77e7c27b2c5525e4aa8cc9f99d654486, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 0
+      value: 46
       objectReference: {fileID: 0}
     - target: {fileID: 7434851321669693207, guid: 77e7c27b2c5525e4aa8cc9f99d654486, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 0
+      value: 80
       objectReference: {fileID: 0}
     - target: {fileID: 7434851321669693207, guid: 77e7c27b2c5525e4aa8cc9f99d654486, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 0
+      value: 46
       objectReference: {fileID: 0}
     - target: {fileID: 7434851321834335947, guid: 77e7c27b2c5525e4aa8cc9f99d654486, type: 3}
       propertyPath: m_AnchorMax.y
@@ -3798,11 +3799,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7434851322154648534, guid: 77e7c27b2c5525e4aa8cc9f99d654486, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 0
+      value: 80
       objectReference: {fileID: 0}
     - target: {fileID: 7434851322154648534, guid: 77e7c27b2c5525e4aa8cc9f99d654486, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 0
+      value: 46
       objectReference: {fileID: 0}
     - target: {fileID: 7434851322346956810, guid: 77e7c27b2c5525e4aa8cc9f99d654486, type: 3}
       propertyPath: m_AnchorMax.y
@@ -3826,11 +3827,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7434851322663144351, guid: 77e7c27b2c5525e4aa8cc9f99d654486, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 0
+      value: 89.4
       objectReference: {fileID: 0}
     - target: {fileID: 7434851322663144351, guid: 77e7c27b2c5525e4aa8cc9f99d654486, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 0
+      value: 46
       objectReference: {fileID: 0}
     - target: {fileID: 7434851322872225859, guid: 77e7c27b2c5525e4aa8cc9f99d654486, type: 3}
       propertyPath: m_AnchorMax.y
@@ -3902,7 +3903,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8298045291338814966, guid: 77e7c27b2c5525e4aa8cc9f99d654486, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8298045291338814966, guid: 77e7c27b2c5525e4aa8cc9f99d654486, type: 3}
       propertyPath: m_TagString
@@ -3960,6 +3961,7 @@ MonoBehaviour:
   directionalLight: {fileID: 0}
   powerOnMp: {fileID: 0}
   audioSource: {fileID: 0}
+  objectives: {fileID: 0}
   powerOn: 0
   oxygen: 100
   vrTextDisplay: {fileID: 0}
@@ -4290,6 +4292,7 @@ MonoBehaviour:
   spawnChance: 0.6
   rockBreak: {fileID: 8300000, guid: 37d12b7d9fcf50743b497727681d1474, type: 3}
   audioSource: {fileID: 2055632019}
+  objectives: {fileID: 802505322}
 --- !u!4 &717013230 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: dcc50e2e9b7b3a44483bf4aa0e75d95d, type: 3}
@@ -4380,6 +4383,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   barrelPrefab: {fileID: 1754699761}
   rockCounter: 0
+  objectives: {fileID: 802505322}
 --- !u!65 &724833684
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5931,7 +5935,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e9902208f4db64d47b1f88676cabc1b4, type: 3}
       propertyPath: m_Layer
-      value: 0
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e9902208f4db64d47b1f88676cabc1b4, type: 3}
       propertyPath: m_TagString
@@ -5939,7 +5943,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8164078558771037576, guid: e9902208f4db64d47b1f88676cabc1b4, type: 3}
       propertyPath: m_Layer
-      value: 0
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7752,6 +7756,7 @@ MonoBehaviour:
   directionalLight: {fileID: 0}
   powerOnMp: {fileID: 0}
   audioSource: {fileID: 0}
+  objectives: {fileID: 0}
   powerOn: 0
   oxygen: 100
   vrTextDisplay: {fileID: 0}
@@ -8465,6 +8470,7 @@ MonoBehaviour:
   directionalLight: {fileID: 0}
   powerOnMp: {fileID: 0}
   audioSource: {fileID: 0}
+  objectives: {fileID: 0}
   powerOn: 0
   oxygen: 100
   vrTextDisplay: {fileID: 1146016053}
@@ -9607,6 +9613,7 @@ MonoBehaviour:
   directionalLight: {fileID: 0}
   powerOnMp: {fileID: 0}
   audioSource: {fileID: 0}
+  objectives: {fileID: 0}
   powerOn: 0
   oxygen: 100
   vrTextDisplay: {fileID: 1146016053}
@@ -9955,7 +9962,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: e4ff397413e1d904380e424bd249f466, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 12.311
+      value: -619
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e4ff397413e1d904380e424bd249f466, type: 3}
       propertyPath: m_LocalPosition.y
@@ -10003,7 +10010,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e4ff397413e1d904380e424bd249f466, type: 3}
       propertyPath: m_Layer
-      value: 0
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e4ff397413e1d904380e424bd249f466, type: 3}
       propertyPath: m_TagString
@@ -10011,7 +10018,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8164078558771037576, guid: e4ff397413e1d904380e424bd249f466, type: 3}
       propertyPath: m_Layer
-      value: 0
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -11584,7 +11591,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9081626000153736230, guid: f6f0b74912f664535b8a5a1158a301e2, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9081626000153736230, guid: f6f0b74912f664535b8a5a1158a301e2, type: 3}
       propertyPath: m_TagString

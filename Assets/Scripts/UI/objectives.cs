@@ -23,12 +23,15 @@ public class Objectives : MonoBehaviour
 
     void ShowCurrentObjective()
     {
-        string current = objectiveList[currentObjectiveIndex];
-        Debug.Log("Current Objective: " + current);
-
-        if (objectiveTextUI != null)
+        if (objectiveTextUI != null && currentObjectiveIndex < objectiveList.Count)
         {
-            objectiveTextUI.text = "Objective: " + current;
+            objectiveTextUI.text = "Objective: " + objectiveList[currentObjectiveIndex];
+            Debug.Log("Current Objective: " + objectiveList[currentObjectiveIndex]);
+        }
+        else
+        {
+            objectiveTextUI.text = "All objectives completed! Powering turbines...";
+            Debug.Log("All objectives completed!");
         }
     }
 
@@ -37,23 +40,36 @@ public class Objectives : MonoBehaviour
         Debug.Log("Completed: " + objectiveList[currentObjectiveIndex]);
 
         currentObjectiveIndex++;
-
-        if (currentObjectiveIndex < objectiveList.Count)
-        {
-            ShowCurrentObjective();
-        }
-        else
-        {
-            if (objectiveTextUI != null)
-            {
-                objectiveTextUI.text = "All objectives completed! Powering turbines...";
-            }
-            Debug.Log("All objectives completed!");
-        }
+        ShowCurrentObjective();
     }
 
     public string GetCurrentObjective()
     {
-        return objectiveList[currentObjectiveIndex];
+        return currentObjectiveIndex < objectiveList.Count ? objectiveList[currentObjectiveIndex] : "All objectives completed!";
+    }
+
+    // ----- Individual Functions -----
+    public void SetObjective_PowerOn()
+    {
+        currentObjectiveIndex = 0;
+        ShowCurrentObjective();
+    }
+
+    public void SetObjective_MineFossils()
+    {
+        currentObjectiveIndex = 1;
+        ShowCurrentObjective();
+    }
+
+    public void SetObjective_MeltFossils()
+    {
+        currentObjectiveIndex = 2;
+        ShowCurrentObjective();
+    }
+
+    public void SetObjective_PlaceBarrels()
+    {
+        currentObjectiveIndex = 3;
+        ShowCurrentObjective();
     }
 }

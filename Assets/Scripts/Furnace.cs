@@ -4,6 +4,7 @@ public class Furnace : MonoBehaviour
 {
     [SerializeField] private GameObject barrelPrefab;
     public int rockCounter = 0;
+    public Objectives objectives;
 
     private void OnTriggerEnter(Collider collision)
     {
@@ -19,7 +20,7 @@ public class Furnace : MonoBehaviour
                 Vector3 spawnPosition = new Vector3(9f, 0.27f, -1.11f);
                 Instantiate(barrelPrefab, spawnPosition, Quaternion.identity);
                 rockCounter = 0; // Reset counter after spawning
-                FindObjectOfType<Objectives>().CompleteCurrentObjective();
+                objectives.SetObjective_PlaceBarrels();
             }
         }
     }

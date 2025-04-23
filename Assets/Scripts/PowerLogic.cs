@@ -11,6 +11,7 @@ public class PowerLogic : MonoBehaviour
     public Light directionalLight; // <-- Add this reference
     [SerializeField] private AudioClip powerOnMp;
     [SerializeField] private AudioSource audioSource;
+    public Objectives objectives;
 
     public bool powerOn = false;
 
@@ -56,7 +57,7 @@ public class PowerLogic : MonoBehaviour
     {
         powerOn = true;
         cable.PlugInto(plugPosition, plugRotation);
-        FindObjectOfType<Objectives>().CompleteCurrentObjective();
+        objectives.SetObjective_MineFossils();
         Debug.Log("PowerLogic: Power ON!");
 
         if (audioSource != null && powerOnMp != null)

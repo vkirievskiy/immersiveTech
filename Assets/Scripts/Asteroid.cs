@@ -9,6 +9,7 @@ public class Asteroid : MonoBehaviour
     [SerializeField] private float spawnChance = 0.5f; // 0.5 = 50% chance
     [SerializeField] private AudioClip rockBreak;
     [SerializeField] private AudioSource audioSource;
+    public Objectives objectives;
 
     private bool isOnCooldown = false;
 
@@ -33,7 +34,7 @@ public class Asteroid : MonoBehaviour
         if (roll <= spawnChance)
         {
             Instantiate(stonePrefab, transform.position, Quaternion.identity);
-            FindObjectOfType<Objectives>().CompleteCurrentObjective();
+            objectives.SetObjective_MeltFossils();
             if (audioSource != null && rockBreak != null)
                 audioSource.PlayOneShot(rockBreak);
             Debug.Log("Stone spawned!");
