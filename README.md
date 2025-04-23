@@ -1,2 +1,2 @@
 # immersiveTech
-VR
+VR_ready

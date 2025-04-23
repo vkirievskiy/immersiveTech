@@ -11,7 +11,7 @@ public class Desk : MonoBehaviour
     // Reference to PowerLogic to modify oxygen level
     public PowerLogic powerLogic; // Assign this in the Inspector
 
-    private Coroutine oxygenIncreaseRoutine;  // To track the oxygen increase routine
+    private Coroutine oxygenIncreaseRoutine;  // To track the oxygen increases routine
 
     public void Start()
     {
